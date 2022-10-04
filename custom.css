@@ -4,6 +4,7 @@
   list-style: none;
   margin-top: 20px;
   user-select: none;
+  padding-left: 0px;
 }
 .social li {
   display: inline-block;
@@ -42,6 +43,11 @@
 .dark li#linkedin svg {
   border-color: #0077b5;
   fill: #0077b5;
+}
+.social li#gscholar svg:hover,
+.dark li#gscholar svg {
+  border-color: #800080;
+  fill: #800080;
 }
 /*******************************************************/
 html {
