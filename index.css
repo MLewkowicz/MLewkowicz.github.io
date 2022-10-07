@@ -1,68 +1,109 @@
 .main-image {
-	max-width: 300px;
-	height: auto;
-	width: 100%;
+  max-width: 300px;
+  height: auto;
+  width: 100%;
 }
 
 @media (max-width: 900px) {
-	.main-image {
-		margin-right: auto;
-		margin-left: auto;
-	}
+  .main-image {
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-	.row {
-		margin: auto;
-	}
+  .row {
+    margin: auto;
+  }
 
-	h3 {
-		padding-left: 15px;
-	}
+  h3 {
+    padding-left: 15px;
+  }
 }
 
 @media (max-width: 768px) {
-	.news-date {
-		font-weight: bold;
-		text-decoration: underline;
-		padding-bottom: 10px;
-	}
+  .news-date {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 10px;
+  }
 }
 
-.main-description  {
-	text-align: left;
+.main-description {
+  text-align: left;
 }
 
 .contact-information {
-	font-size: 14px;
-	margin: 0;
-	text-align: center;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
 }
 
 p {
-	margin: 5px
+  margin: 5px;
 }
 
 .contact-p {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .icons {
-	padding-left: 5px;
-	padding-right: 5px;
-	margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0;
 }
 
 .news {
-	padding-top: 20px;
-	text-align: center;
-	height: auto;
-	min-height: 0;
-	margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  height: auto;
+  min-height: 0;
+  margin: auto;
 }
 
 .news-item {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .news-text {
-	text-align: left;
+  text-align: left;
+}
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  box-shadow: none;
+}
+.card {
+  font-size: 1em;
+  overflow: hidden;
+  padding: none;
+  border: none;
+  box-shadow: 0 0 8px #d3d3d3;
+  border-radius: none;
+  margin-top: 20px;
+  max-height: 300px;
+  background: linear-gradient(0deg, #6495ED 300px, #FFFFFF);
+  transition: max-height 500ms ease-in-out;
+}
+.card_1 {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 5;
+  border: none;
+  box-shadow: 0 0 8px #d3d3d3;
+  border-radius: 6px;
+  margin-top: 20px;
+  max-height: 190px;
+  transition: max-height 500ms ease-in-out;
+}
+.card:hover,
+.card_1:hover {
+  box-shadow: 0 0 8px #d3d3d3;
+  cursor: pointer;
+  max-height: 600px;
+}
+.card-height-animate {
+  height: 300px;
 }
