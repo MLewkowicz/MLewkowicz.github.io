@@ -77,33 +77,55 @@ p {
 }
 .card {
   font-size: 1em;
-  overflow: hidden;
-  padding: none;
-  border: none;
-  box-shadow: 0 0 8px #d3d3d3;
-  border-radius: none;
-  margin-top: 20px;
-  max-height: 300px;
-  background: linear-gradient(0deg, #6495ED 300px, #FFFFFF);
-  transition: max-height 500ms ease-in-out;
+  /* overflow: hidden; */
+  border: 2px;
+  margin-bottom: 20px;
+  /* box-shadow: 0 0 8px #d3d3d3; */
 }
-.card_1 {
-  font-size: 1em;
-  overflow: hidden;
-  padding: 5;
-  border: none;
-  box-shadow: 0 0 8px #d3d3d3;
-  border-radius: 6px;
-  margin-top: 20px;
-  max-height: 190px;
-  transition: max-height 500ms ease-in-out;
-}
-.card:hover,
-.card_1:hover {
-  box-shadow: 0 0 8px #d3d3d3;
+button {
+  outline: 0;
+  grid-gap: 8px 8px;
+  align-items: center;
+  background: 0 0;
+  border: 1px solid #0f4d92;
+  border-radius: 4px;
   cursor: pointer;
-  max-height: 600px;
+  display: block;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 0.14s ease-out;
+  white-space: nowrap;
+  margin-bottom: 10px;
 }
-.card-height-animate {
-  height: 300px;
+button:hover {
+  box-shadow: 4px 4px 0 #0f4d92;
+  transform: translate(-4px, -4px);
+}
+button:focus-visible {
+  outline-offset: 1px;
+}
+.no-gutters {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.no-gutters > .col,
+[class*="col-"] {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.col-sm-5 {
+  margin-left: 5px;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: large;
 }
