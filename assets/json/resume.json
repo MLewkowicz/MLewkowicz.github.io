@@ -55,10 +55,10 @@
         "startDate": "2019-06-01",
         "endDate": "Present",
         "highlights": [
-          "Co-led project which investigates strategy estimation for multiple agents in competitive and collaborative settings (behavioral cloning, goal prediction, model predictive control, and novel algorithms for reasoning about opponent behavior) [C6, S2].",
-          "Built a real-time object interception algorithm on a Stretch RE1 robot for sorting objects with human preferences and worked on a semi-supervised clustering algorithm for identifying indeterminate sub-categorizations of recyclables [C4].",
-          "Utilized ROS, OpenCV, and Speech-to-Text to build the software infrastructure of an in-home interruptions training social robot for adults with ASD on the Jibo robot platform. Ran user study in ~15 homes and conducted data analysis [C3].",
-          "Implemented bayesian knowledge tracing for tracking the knowledge of an intelligent robotic tutoring system (built on a UR5e robot arm) that learns and then teaches the task of outlining chords on a xylophone [C2]."
+          "Co-led project investigating strategy estimation for multiple agents in competitive and collaborative settings.",
+          "Built a real-time object interception algorithm on a Stretch RE1 robot for sorting objects with human preferences and worked on a semi-supervised clustering algorithm for identifying sub-categorizations of recyclables.",
+          "Utilized ROS, OpenCV, and Speech-to-Text to build the software infrastructure of an in-home interruptions training social robot for adults with ASD on the Jibo robot platform. Conducted a user study in ~15 homes.",
+          "Implemented Bayesian knowledge tracing for tracking the knowledge of an intelligent robotic tutoring system using a UR5e robot arm."
         ]
       },
       {
@@ -68,8 +68,8 @@
         "startDate": "2022-01-01",
         "endDate": "Present",
         "highlights": [
-          "Leading the development of a Unity-ROS simulator for multi-agent reinforcement learning and social navigation [C6, S3].",
-          "Enabling fine-grained control of simulated pedestrians and agents, and sensor emulation for sim-to-real transfer [S3]."
+          "Led the development of a Unity-ROS simulator for multi-agent reinforcement learning and social navigation.",
+          "Enabled fine-grained control of simulated pedestrians and agents, and sensor emulation for sim-to-real transfer."
         ]
       },
       {
@@ -79,7 +79,7 @@
         "startDate": "2023-06-01",
         "endDate": "2023-12-01",
         "highlights": [
-          "Built the pipeline for a multi-modal video editing system to enable the expression of edits with natural language and sketching (integrated CLIP, activity recognition, dense captioning, and LLMs to reason about video context) [C5, W1]."
+          "Built the pipeline for a multi-modal video editing system to enable the expression of edits with natural language and sketching (integrated CLIP, activity recognition, dense captioning, and LLMs to reason about video context)."
         ]
       },
       {
@@ -99,7 +99,7 @@
         "startDate": "2018-06-01",
         "endDate": "2019-06-01",
         "highlights": [
-          "Used various graph-based techniques to design a novel leader selection algorithm for distributed robotic swarm control and worked on optimizing path planning algorithms at the Stony Brook Interacting Robotic Systems Lab (C++, MATLAB) [C1]."
+          "Used graph-based techniques to design a novel leader selection algorithm for distributed robotic swarm control and worked on optimizing path planning algorithms."
         ]
       },
       {
@@ -109,11 +109,94 @@
         "startDate": "2020-06-01",
         "endDate": "2020-09-01",
         "highlights": [
-          "Provided computer and technology training to students and adults around the New Haven area (full-stack development).",
+          "Provided computer and technology training to students and adults around New Haven (full-stack development).",
           "Ran community outreach programs such as a virtual computer lab, programming workshops, and personalized tutoring."
         ]
       }
     ],
+    "publications": [
+      {
+        "type": "Journal Publication",
+        "title": "The Influence of Robot Verbal Support on Human Team Members",
+        "publisher": "Frontiers in Psychology",
+        "releaseDate": "2020-10-30",
+        "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.590181/full"
+      },
+      {
+        "type": "Conference Publication",
+        "title": "Planning with Critical Decision Points",
+        "publisher": "IEEE RO-MAN 2024",
+        "releaseDate": "2024-06-01",
+        "url": "https://www.researchgate.net/publication/381309969_Planning_with_Critical_Decision_Points"
+      },
+      {
+        "type": "Conference Publication",
+        "title": "ExpressEdit: Video Editing with Natural Language and Sketching",
+        "publisher": "ACM IUI 2024",
+        "releaseDate": "2024-03-18",
+        "url": "https://arxiv.org/abs/2403.17693"
+      },
+      {
+        "type": "Conference Publication",
+        "title": "Tailoring Visual Object Representations to Human Requirements",
+        "publisher": "CoRL 2022",
+        "releaseDate": "2022-12-01",
+        "url": "https://openreview.net/pdf?id=-8Kt5J-9AI"
+      },
+      {
+        "type": "Conference Publication",
+        "title": "A Social Robot for Improving Interruptions Tolerance and Employability in Adults with ASD",
+        "publisher": "HRI 2022",
+        "releaseDate": "2022-04-15",
+        "url": "https://scazlab.yale.edu/sites/default/files/files/ISTAR_HRI_2022_20221222.pdf"
+      },
+      {
+        "type": "Conference Publication",
+        "title": "Distributed Algorithm for Selecting Leaders for Supervisory Robotic Swarm Control",
+        "publisher": "IEEE MRS 2019",
+        "releaseDate": "2019-08-20",
+        "url": "https://ieeexplore.ieee.org/document/8901091"
+      }
+    ],
+    "inSubmission": [
+      {
+        "title": "Multi-Agent SEAN: A Social Simulation Environment for Data-Driven Learning in Autonomous Navigation",
+        "submissionTo": "Robotics: Science and Systems (RSS)",
+        "date": "2025-01-01"
+      },
+      {
+        "title": "Planning Ahead: Robots that Reveal Humans’ Goals Using Critical Decision Points During Collaboration",
+        "submissionTo": "Robotics: Science and Systems (RSS)",
+        "date": "2025-01-01"
+      },
+      {
+        "title": "A Social Robot for Deep Breathing and Storytelling to Support Adults with Dementia and Their Care Partners",
+        "submissionTo": "ACM SIGACCESS (ASSETS)",
+        "date": "2025-01-01"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Best Paper Award Honorable Mention",
+        "awarder": "HRI Conference",
+        "date": "2022-03-01"
+      },
+      {
+        "title": "Student Inclusion Award",
+        "awarder": "CoRL",
+        "date": "2022-03-01"
+      },
+      {
+        "title": "Simons Summer Research Fellowship",
+        "awarder": "Stony Brook University",
+        "date": "2019-08-01"
+      },
+      {
+        "title": "YES Scholar",
+        "awarder": "Yale University",
+        "date": "2019-08-01"
+      }
+    ],  
     "skills": [
       {
         "name": "Programming Languages",
