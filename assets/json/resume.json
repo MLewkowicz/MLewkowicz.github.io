@@ -152,6 +152,13 @@
       },
       {
         "type": "Conference Publication",
+        "title": "Why we should build robots that both teach and learn",
+        "publisher": "HRI 2021",
+        "releaseDate": "2021-04-15",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3434073.3444647"
+      },
+      {
+        "type": "Conference Publication",
         "title": "Distributed Algorithm for Selecting Leaders for Supervisory Robotic Swarm Control",
         "publisher": "IEEE MRS 2019",
         "releaseDate": "2019-08-20",
