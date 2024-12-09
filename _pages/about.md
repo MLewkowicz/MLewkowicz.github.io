@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate at Yale University
+subtitle: Undergraduate & Researcher at Yale University
 
 profile:
   align: right
