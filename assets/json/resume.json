@@ -1,200 +1,146 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "basics": {
+      "name": "Michal Lewkowicz",
+      "label": "Undergraduate Researcher",
+      "email": "michal.lewkowicz@yale.edu",
+      "phone": "+1 (516) 263-2028",
+      "url": "https://mlewkowicz.github.io/",
+      "summary": "Undergraduate researcher specializing in robotics, artificial intelligence, and human-robot interaction.",
+      "location": {
+        "address": "Yale University",
+        "city": "New Haven",
+        "countryCode": "US",
+        "region": "Connecticut"
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "MLewkowicz",
+          "url": "https://github.com/MLewkowicz"
+        },
+        {
+          "network": "Google Scholar",
+          "username": "Michal Lewkowicz",
+          "url": "https://scholar.google.com/citations?user=2TWe9N4AAAAJ&hl=en"
+        }
+      ]
     },
-    "profiles": [
+    "education": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "institution": "Yale University",
+        "location": "New Haven, CT, USA",
+        "url": "https://www.yale.edu/",
+        "area": "Computer Science & Applied Mathematics",
+        "studyType": "B.S. & B.A.",
+        "startDate": "2019-08-01",
+        "endDate": "2024-12-01",
+        "score": "3.85 GPA",
+        "courses": [
+          "Machine Learning",
+          "Intelligent Robotics",
+          "Building Interactive Machines",
+          "Randomized Algorithms",
+          "Automata Theory",
+          "Probability Theory",
+          "Systems Programming",
+          "Data Structures & Algorithms"
+        ]
+      }
+    ],
+    "work": [
+      {
+        "name": "Yale Social Robotics Lab",
+        "position": "Researcher (Advisor: Brian Scassellati)",
+        "url": "https://scazlab.yale.edu/",
+        "startDate": "2019-06-01",
+        "endDate": "Present",
+        "highlights": [
+          "Co-led project which investigates strategy estimation for multiple agents in competitive and collaborative settings (behavioral cloning, goal prediction, model predictive control, and novel algorithms for reasoning about opponent behavior) [C6, S2].",
+          "Built a real-time object interception algorithm on a Stretch RE1 robot for sorting objects with human preferences and worked on a semi-supervised clustering algorithm for identifying indeterminate sub-categorizations of recyclables [C4].",
+          "Utilized ROS, OpenCV, and Speech-to-Text to build the software infrastructure of an in-home interruptions training social robot for adults with ASD on the Jibo robot platform. Ran user study in ~15 homes and conducted data analysis [C3].",
+          "Implemented bayesian knowledge tracing for tracking the knowledge of an intelligent robotic tutoring system (built on a UR5e robot arm) that learns and then teaches the task of outlining chords on a xylophone [C2]."
+        ]
+      },
+      {
+        "name": "Yale Interactive Machines Group",
+        "position": "Researcher (Advisor: Marynel Vázquez)",
+        "url": "https://interactive-machines.yale.edu/",
+        "startDate": "2022-01-01",
+        "endDate": "Present",
+        "highlights": [
+          "Leading the development of a Unity-ROS simulator for multi-agent reinforcement learning and social navigation [C6, S3].",
+          "Enabling fine-grained control of simulated pedestrians and agents, and sensor emulation for sim-to-real transfer [S3]."
+        ]
+      },
+      {
+        "name": "KAIST Interaction Lab (KIXLAB)",
+        "position": "Researcher (Advisor: Juho Kim)",
+        "url": "https://juhokim.com/",
+        "startDate": "2023-06-01",
+        "endDate": "2023-12-01",
+        "highlights": [
+          "Built the pipeline for a multi-modal video editing system to enable the expression of edits with natural language and sketching (integrated CLIP, activity recognition, dense captioning, and LLMs to reason about video context) [C5, W1]."
+        ]
+      },
+      {
+        "name": "Yale LILY Lab & Meta AI",
+        "position": "Researcher (Advisor: Dragomir Radev)",
+        "url": "https://lily.yale.edu/",
+        "startDate": "2021-01-01",
+        "endDate": "2021-06-01",
+        "highlights": [
+          "Investigated fusion of semantic representation graphs (AMR) for improving faithfulness of abstractive text summarization in collaboration with Facebook's Language and Translation Technologies (LATTE) group."
+        ]
+      },
+      {
+        "name": "Interacting Robotic Systems Lab at Stony Brook",
+        "position": "Researcher (Advisor: Nilanjan Chakraborty)",
+        "url": "https://www.cs.stonybrook.edu/people/faculty/NilanjanChakraborty",
+        "startDate": "2018-06-01",
+        "endDate": "2019-06-01",
+        "highlights": [
+          "Used various graph-based techniques to design a novel leader selection algorithm for distributed robotic swarm control and worked on optimizing path planning algorithms at the Stony Brook Interacting Robotic Systems Lab (C++, MATLAB) [C1]."
+        ]
+      },
+      {
+        "name": "Concepts for Adaptive Learning (CfAL)",
+        "position": "Technology Lead / Mentor",
+        "url": "https://www.ourcfal.org/",
+        "startDate": "2020-06-01",
+        "endDate": "2020-09-01",
+        "highlights": [
+          "Provided computer and technology training to students and adults around the New Haven area (full-stack development).",
+          "Ran community outreach programs such as a virtual computer lab, programming workshops, and personalized tutoring."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming Languages",
+        "keywords": ["Python", "C/C++", "C#", "JavaScript", "Bash", "SQL"]
+      },
+      {
+        "name": "Frameworks & Tools",
+        "keywords": [
+          "ROS/ROS2",
+          "PyTorch",
+          "Unity",
+          "OpenCV",
+          "Git",
+          "Docker",
+          "AWS"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native"
+      },
+      {
+        "language": "Polish",
+        "fluency": "Fluent"
       }
     ]
-  },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
-}
+  }
+  
